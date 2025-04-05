@@ -1,4 +1,4 @@
-package com.omnify.Blog_BackEnd.model;
+package com.omnify.BlogBackEnd.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

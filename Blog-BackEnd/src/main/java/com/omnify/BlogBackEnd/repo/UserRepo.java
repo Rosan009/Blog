@@ -1,6 +1,6 @@
-package com.omnify.Blog_BackEnd.repo;
+package com.omnify.BlogBackEnd.repo;
 
-import com.omnify.Blog_BackEnd.model.User;
+import com.omnify.BlogBackEnd.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepo extends JpaRepository<User,Integer> {

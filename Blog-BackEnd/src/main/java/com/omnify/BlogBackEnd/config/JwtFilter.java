@@ -1,6 +1,6 @@
-package com.omnify.Blog_BackEnd.config;
+package com.omnify.BlogBackEnd.config;
 
-import com.omnify.Blog_BackEnd.service.UserService;
+import com.omnify.BlogBackEnd.service.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

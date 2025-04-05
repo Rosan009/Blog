@@ -1,4 +1,4 @@
-package com.omnify.Blog_BackEnd.config;
+package com.omnify.BlogBackEnd.config;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

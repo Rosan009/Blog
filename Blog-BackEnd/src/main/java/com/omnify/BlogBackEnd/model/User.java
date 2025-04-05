@@ -1,4 +1,4 @@
-package com.omnify.Blog_BackEnd.model;
+package com.omnify.BlogBackEnd.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -11,6 +11,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +19,9 @@ public class User {
 
     @Column(unique = true)
     private String email;
+
     private String password;
+
     @OneToMany(mappedBy = "author")
     private List<Blog> blogs;
 }

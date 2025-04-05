@@ -1,13 +1,15 @@
-package com.omnify.Blog_BackEnd.service;
+package com.omnify.BlogBackEnd.service;
 
-import com.omnify.Blog_BackEnd.model.User;
-import com.omnify.Blog_BackEnd.model.UserPrincipal;
-import com.omnify.Blog_BackEnd.repo.UserRepo;
+import com.omnify.BlogBackEnd.model.User;
+import com.omnify.BlogBackEnd.model.UserPrincipal;
+import com.omnify.BlogBackEnd.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService implements UserDetailsService {
     @Autowired
     private UserRepo repo;

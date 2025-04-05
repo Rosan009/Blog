@@ -1,4 +1,4 @@
-package com.omnify.Blog_BackEnd.config;
+package com.omnify.BlogBackEnd.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.omnify.Blog_BackEnd;
+package com.omnify.BlogBackEnd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
