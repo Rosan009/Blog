@@ -1,0 +1,109 @@
+/* General Styling for the Form */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Inputs */
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  /* Primary Button */
+  form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Secondary Button (SignIn) */
+  form button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  form button[type="button"]:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Additional Text */
+  form div p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    form {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    form button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
