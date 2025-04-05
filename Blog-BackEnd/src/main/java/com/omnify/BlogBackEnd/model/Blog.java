@@ -16,9 +16,7 @@ public class Blog {
     private int id;
     private String title;
     private String content;
-
-    @ManyToOne
-    private User author;
+    private String author;
 
     private LocalDateTime createdAt = LocalDateTime.now();
 }
