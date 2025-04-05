@@ -15,7 +15,7 @@ export const LoginForm = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await fetch('http://localhost:8081/user/login', {
+      const response = await fetch('http://localhost:8083/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(input),
@@ -29,6 +29,7 @@ export const LoginForm = () => {
         const token = data?.token || null; 
         alert('Login successful!');
         localStorage.setItem('token', token); 
+        console.log("token:",token);
         navigate('/home');
       } else {
         const error = isJson ? await response.json() : { message: 'Login failed' };
