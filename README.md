@@ -36,6 +36,8 @@ mvn spring-boot:run
 ```
 Front-end
 ```bash
+git clone <your-repo-url>
+cd frontend
 node -v
 npm -v
 npm install
