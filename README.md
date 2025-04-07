@@ -27,6 +27,18 @@ A simple full-stack blog application where users can create, view, edit, and del
 
 1. **Clone the repository:**
 
+Back-end
 ```bash
 git clone <your-repo-url>
 cd backend
+mvn clean install
+mvn spring-boot:run
+```
+Front-end
+```bash
+node -v
+npm -v
+npm install
+npm run dev
+```
+
